@@ -36,4 +36,25 @@ The output is of 3 0/1 integers. The combinations are:
 2. [0,1,0] - Make a right turn
 3. [0,0,1] - Make a left turn
 
+## Running on your PC
+Here are the steps to follow to run this on you PC:
+1. If you have conda installed then create an environment and then install all files using the following commands
+```
+conda create --name <env name>
+conda activate <env name>
+conda install --file requirements.txt
+```
+### OR
+1. If you have pip and virtualenv installed then create an environment and then install all files using the following commands
+```
+mkvirtualenv <env name>
+activate <env name>
+pip install -r requirements.txt
+```
+2. After the install is complete, run the agent.py file and watch the magic happen
+```
+python agent.py
+```
+3. To stop the script you can use Ctrl+C or Ctrl+Z in the command prompt
+
 ## Screenshots
