@@ -58,3 +58,8 @@ python agent.py
 3. To stop the script you can use Ctrl+C or Ctrl+Z in the command prompt
 
 ## Screenshots
+At the start of the training you can see that it's making random moves and is not heading for the food specifically. Here it is exploring it's surroundings
+![Before GIF](https://raw.githubusercontent.com/Varun-Patkar/SnakeWithReinforcementLearning/master/assets/before.gif)
+
+At game no 101 you can see that it heads straight for the food and doesnt do any random moves. There is a problem that it gets stuck in self loops
+![Before GIF](https://raw.githubusercontent.com/Varun-Patkar/SnakeWithReinforcementLearning/master/assets/after.gif)
